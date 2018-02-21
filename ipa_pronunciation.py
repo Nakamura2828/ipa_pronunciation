@@ -118,11 +118,3 @@ for sentence in sentences:
         else:
             print(w.upper(), end= ' ')
     print()
-
-#
-#
-#
-# wordlist = set(w.lower() for w in nltk.corpus.words.words())
-#
-# puzzle_letters = nltk.FreqDist('egivrvonl')
-# [w for w in wordlist if len(w) >= 6 and obligatory in w and nltk.FreqDist(w) >- puzzle_letters]
